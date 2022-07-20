@@ -15,10 +15,10 @@
 include device/sony/nagara/PlatformConfig.mk
 
 TARGET_BOOTLOADER_BOARD_NAME := unknown
-ifneq (,$(filter %xqct72,$(TARGET_PRODUCT)))
-TARGET_BOOTLOADER_BOARD_NAME := XQ-CT72
+ifneq (,$(filter %xqct54,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := XQ-CT54
 else
-TARGET_BOOTLOADER_BOARD_NAME := XQ-CT72
+TARGET_BOOTLOADER_BOARD_NAME := XQ-CT54
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
 endif
 
