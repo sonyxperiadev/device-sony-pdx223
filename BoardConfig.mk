@@ -26,8 +26,8 @@ endif
 PRODUCT_PLATFORM := nagara
 
 # Kernel cmdline
-BOARD_KERNEL_CMDLINE += androidboot.hardware=pdx223
-BOARD_KERNEL_CMDLINE += androidboot.fstab_suffix=pdx223
+BOARD_BOOTCONFIG += androidboot.hardware=pdx223
+BOARD_BOOTCONFIG += androidboot.fstab_suffix=pdx223
 
 # Partition information
 BOARD_FLASH_BLOCK_SIZE := 131072 # (BOARD_KERNEL_PAGESIZE * 64)
