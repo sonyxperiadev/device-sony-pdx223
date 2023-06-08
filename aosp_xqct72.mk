@@ -12,12 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_xqct54.mk \
-    $(LOCAL_DIR)/aosp_xqct72.mk
+$(call inherit-product, device/sony/pdx223/aosp_xqct54.mk)
 
-COMMON_LUNCH_CHOICES += \
-    aosp_xqct54-eng \
-    aosp_xqct54-userdebug \
-    aosp_xqct72-eng \
-    aosp_xqct72-userdebug
-
+PRODUCT_NAME := aosp_xqct72
