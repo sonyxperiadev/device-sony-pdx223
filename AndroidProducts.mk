@@ -15,5 +15,5 @@
 PRODUCT_MAKEFILES := $(LOCAL_DIR)/aosp_xqct54.mk
 
 COMMON_LUNCH_CHOICES += \
-    aosp_xqct54-eng \
-    aosp_xqct54-userdebug
+    aosp_xqct54-trunk_staging-eng \
+    aosp_xqct54-trunk_staging-userdebug
