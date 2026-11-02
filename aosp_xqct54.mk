@@ -15,7 +15,7 @@
 # DualSim
 PRODUCT_DEVICE_DS := true
 
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_VENDOR_PROPERTIES += \
     ro.telephony.default_network=26,26
 
 TARGET_KERNEL_CONFIG := aosp_nagara_pdx223_defconfig
